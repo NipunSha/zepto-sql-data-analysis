@@ -111,3 +111,20 @@ LIMIT 20;
 SELECT COUNT(*) AS discounted_gt_mrp
 FROM zepto
 WHERE discountedSellingPrice > mrp;
+
+---
+
+## How to Run
+
+1. Create tables (staging + final) in MySQL
+2. Import `zepto_v2.csv` into `zepto_raw` using MySQL Workbench
+3. Run `zepto_raw_load.sql` to clean and transform data into `zepto`
+4. Execute analysis queries from the README or SQL file
+5. View results in MySQL Workbench and screenshots in `/screenshots`
+
+---
+
+## Author
+
+**Nipun Sharma**  
+SQL Data Analysis Project (MySQL)
