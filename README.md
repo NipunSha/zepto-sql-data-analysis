@@ -112,6 +112,8 @@ SELECT COUNT(*) AS discounted_gt_mrp
 FROM zepto
 WHERE discountedSellingPrice > mrp;
 
+```md
+
 ---
 
 ## How to Run
